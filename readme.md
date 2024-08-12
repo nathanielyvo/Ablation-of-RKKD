@@ -14,7 +14,7 @@ The following figures show the curve of KL divergence, ranking loss, and test ac
 
 *Figure 2. The KL divergence curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
 
-![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/KD_loss.jpg)
+![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/kd_loss.jpg)
 
 *Figure 3. The test accuracy curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
 
