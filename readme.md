@@ -7,7 +7,7 @@ The following figures show the curve of kl loss, ranking loss, and test acc duri
 - **Help Optimize KL Divergence** As shown in the **Figure2**, when ranking loss is added, the KL divergence decreases faster, and after the learning rate is reduced, the KL divergence drops to a lower value.Therefore, it can be shown that in the early stage of optimization, adding rk loss can speed up the decline of kl loss, reduce its oscillation in the suboptimal range. At the same time, in the later stage of optimization, ranking loss will not interfere with the decrease of kl divergence, so the kl divergence finally optimize to a better position.
 
 - **Better Test Accuracy** As shown in the **Figure3**, after adding ranking loss, the student model achieved leading accuracy on the test set at all stages of training. We can see that adding rk can help the model converge and achieve better generalization and performance.
-- 
+  
 *Figure 1. The ranking loss curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
 ![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/rk_loss.jpg)
 *Figure 2. The KL divergence curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
