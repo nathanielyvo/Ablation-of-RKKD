@@ -9,8 +9,13 @@ The following figures show the curve of kl loss, ranking loss, and test acc duri
 - **Better Test Accuracy** As shown in the **Figure3**, after adding ranking loss, the student model achieved leading accuracy on the test set at all stages of training. We can see that adding rk can help the model converge and achieve better generalization and performance.
   
 *Figure 1. The ranking loss curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
+
 ![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/rk_loss.jpg)
+
 *Figure 2. The KL divergence curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
+
 ![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/kd_loss.jpg)
+
 *Figure 3. The test accuracy curve when adding and not adding ranking loss to knowledge distillation for gradient calculation*
+
 ![image](https://github.com/nathanielyvo/Ablation-of-RKKD/blob/main/test_acc.jpg)
